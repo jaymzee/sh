@@ -1,0 +1,3 @@
+#!/bin/sh
+printf '\033[9;15]'
+echo 'console will blank screen after 15 minutes of inactivity'

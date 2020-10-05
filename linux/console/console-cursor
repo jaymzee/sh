@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo -ne '\e[16;600]' # set cursor blink to 600ms
+echo -ne '\e[?6c'     # set cursor to block

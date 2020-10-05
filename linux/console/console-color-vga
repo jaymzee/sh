@@ -1,0 +1,19 @@
+#!/bin/sh
+# Ubuntu virtual tty colors from /etc/vtrgb.vga
+printf '\033]P0000000' #black
+printf '\033]P1aa0000' #red
+printf '\033]P200aa00' #green
+printf '\033]P3aa5500' #yellow
+printf '\033]P40000aa' #blue
+printf '\033]P5aa00aa' #purple
+printf '\033]P600aaaa' #light blue
+printf '\033]P7aaaaaa' #light gray
+printf '\033]P8555555' #dark gray
+printf '\033]P9ff5555' #intense red
+printf '\033]Pa55ff55' #intense green
+printf '\033]Pbffff55' #intense yellow
+printf '\033]Pc5555ff' #intense blue
+printf '\033]Pdff55ff' #intense magenta
+printf '\033]Pe55ffff' #intense cyan
+printf '\033]Pfffffff' #white
+echo 'console pallete set to vga'

@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# Fixes the caps lock indicator in the console 
+# (tty1 thru tty6) on Debian systems
+#
+dumpkeys | sed s/CtrlL_Lock/Caps_Lock/ | sudo loadkeys

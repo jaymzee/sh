@@ -1,0 +1,19 @@
+#!/bin/sh
+# Ubuntu virtual tty colors from /etc/vtrgb
+printf '\033]P0010101' #black
+printf '\033]P1de382b' #brown
+printf '\033]P239b54a' #green
+printf '\033]P3ffc706' #yellow
+printf '\033]P4006fb8' #blue
+printf '\033]P5762671' #purple
+printf '\033]P62cb5e9' #light blue
+printf '\033]P7cccccc' #light gray
+printf '\033]P8808080' #dark gray
+printf '\033]P9ff0000' #intense red
+printf '\033]Pa00ff00' #intense green
+printf '\033]Pbffff00' #intense yellow
+printf '\033]Pc0000ff' #intense blue
+printf '\033]Pdff00ff' #intense magenta
+printf '\033]Pe00ffff' #intense cyan
+printf '\033]Pfffffff' #white
+echo 'console pallete set to Ubuntu default'
