@@ -1,0 +1,19 @@
+#!/bin/sh
+# xterm virtual tty colors
+printf '\033]P0000000' #black
+printf '\033]P1c50f1f' #red
+printf '\033]P24fca52' #green
+printf '\033]P3c19c00' #yellow
+printf '\033]P40000ee' #blue
+printf '\033]P5cd00cd' #purple
+printf '\033]P600cdcd' #light blue
+printf '\033]P7e5e5e5' #light gray
+printf '\033]P87f7f7f' #dark gray
+printf '\033]P9ff0000' #intense red
+printf '\033]Pa00ff00' #intense green
+printf '\033]Pbffff00' #intense yellow
+printf '\033]Pc5c5cff' #intense blue
+printf '\033]Pdff00ff' #intense magenta
+printf '\033]Pe00ffff' #intense cyan
+printf '\033]Pfffffff' #white
+echo 'console pallete set to vga'

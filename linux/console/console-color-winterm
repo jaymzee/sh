@@ -1,0 +1,19 @@
+#!/bin/sh
+# windows-terminal campbell scheme virtual tty colors
+printf '\033]P0000000' #black
+printf '\033]P1c50f1f' #red
+printf '\033]P200cd00' #green
+printf '\033]P3cdcd00' #yellow
+printf '\033]P4003ada' #blue
+printf '\033]P5881798' #purple
+printf '\033]P63a96dd' #light blue
+printf '\033]P7cccccc' #light gray
+printf '\033]P8767676' #dark gray
+printf '\033]P9e74856' #intense red
+printf '\033]Pa16c60c' #intense green
+printf '\033]Pbf9f1a5' #intense yellow
+printf '\033]Pc3b78ff' #intense blue
+printf '\033]Pdb4009e' #intense magenta
+printf '\033]Pe61d6d6' #intense cyan
+printf '\033]Pff2f2f2' #white
+echo 'console pallete set to vga'
