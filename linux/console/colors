@@ -1,0 +1,16 @@
+0 [30m█ black[0m [black]
+1 [31m█ red[0m
+2 [32m█ green[0m
+3 [33m█ yellow[0m
+4 [34m█ blue[0m
+5 [35m█ magenta[0m
+6 [36m█ cyan[0m
+7 [37m█ white [light gray][0m
+8 [1;30m█ dark gray[0m
+9 [1;31m█ intense red[0m
+a [1;32m█ intense green[0m
+b [1;33m█ intense yellow[0m
+c [1;34m█ intense blue[0m
+d [1;35m█ intense magenta[0m
+e [1;36m█ intense cyan[0m
+f [1;37m█ intense white[0m
